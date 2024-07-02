@@ -1,0 +1,37 @@
+.page{
+    background-color: beige;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: goldenrod;
+}
+
+.icon{
+    width: 280px;
+    margin:auto;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.recipes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name{
+    font-style: italic;
+}
+
+.data{
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 0px 0px 0px 10px ;
+    margin: 15px 15px;
+    text-align: center;
+}
